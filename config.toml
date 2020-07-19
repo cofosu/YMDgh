@@ -71,8 +71,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title               = "LET’S BEGIN THE CONVERSATIONS!"
     primary_button      = "Interested in Joining Us?"
     primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
+    #secondary_button    = "Not Convinced"
+    #secondary_button_url = "portfolio"
 
   [params.footer]
     # Footer Contact Info
@@ -85,7 +85,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About Company"
+          name = "Who We Are"
           url  = "about"
         [[params.footer.sitemap.link]]
           name = "Projects"
