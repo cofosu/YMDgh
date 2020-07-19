@@ -18,12 +18,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfolio"
+    name    = "Mission and Vision"
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
+    name    = "Outreach"
+    url     = "outreach"
     weight  = 4
   [[menu.nav]]
     name    = "Get in touch"
@@ -53,23 +53,23 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
+    heading               = "Your Mind Dey!"
+    tagline               = "Normalizing mental health discourse amongst senior high school students in Ghana"
+    primary_button        = "What We Can Achieve Together"
     primary_button_url    = "portfolio"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
 
   [params.portfolio]
     enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title     = "THE CHOP BOX ROOM"
+    subtitle  = "Opening the mental padlock that prevents us from engaging with our emotions"
 
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
-    primary_button      = "Submit Query"
+    title               = "LET’S BEGIN THE CONVERSATIONS!"
+    primary_button      = "Interested in Joining Us?"
     primary_button_url  = "contact"
     secondary_button    = "Not Convinced"
     secondary_button_url = "portfolio"
@@ -78,9 +78,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      #address = "713 Elmwood St.<br>Prior Lake, MN 55372"
+      phone   = "+1 651 434 7672"
+      email   = "mentalhealthghana@gmail.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
@@ -91,8 +91,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
           name = "Projects"
           url  = "portfolio"
         [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
+          name = "Outreach"
+          url  = "outreach"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
@@ -100,18 +100,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       [params.footer.social]
         title   = "Social Media"
         [[params.footer.social.link]]
-          name = "Medium"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Behance"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Dribbble"
+          name = "Facebook"
           url  = "#"
         [[params.footer.social.link]]
           name = "Instagram"
           url  = "#"
-      # Footer Service
-      [params.footer.service]
-        title       = "Your Mind Dey!:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        [[params.footer.social.link]]
+          name = "Whatsapp"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "YouTube"
+          url  = "#"
+
