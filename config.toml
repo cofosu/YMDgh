@@ -1,11 +1,10 @@
-baseURL       = "/"
+baseURL       = "/about/"
 languageCode  = "en-us"
 title         = "Roxo | Creative Design Agency"
 theme = "roxo-hugo"
 summarylength = 25
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-> 
 # Site Menus
 [menu]
   # Navbar Menus
@@ -113,5 +112,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
           url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
+        title       = "Your Mind Dey!:"
         description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
