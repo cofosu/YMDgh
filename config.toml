@@ -112,7 +112,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
           url  = "https://www.facebook.com/YMDgh"
         [[params.footer.social.link]]
           name = "Instagram"
-          url  = "#"
+          url  = "https://www.instagram.com/your_mind_dey/"
         [[params.footer.social.link]]
           name = "Whatsapp"
           url  = "#"
