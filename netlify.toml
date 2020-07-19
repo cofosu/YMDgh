@@ -4,7 +4,7 @@
 [build]
   base = "project"
   command = "hugo"
-  publish = "public"
+  publish = “your_internal_HUGO_directory/public/”
 
 [build.environment]
   HUGO_VERSION = "0.74.2"
