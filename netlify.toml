@@ -2,7 +2,8 @@
 # unless otherwise overridden by more specific contexts.
 
 [build]
-  command = "hugo --gc --minify -b $URL"
+  base = "project"
+  command = "hugo"
   publish = "public"
 
 [build.environment]
@@ -11,6 +12,7 @@
 
 [context.production.environment]
   HUGO_ENV = "production"
+  HUGO_VERSION = "0.74.2"
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
