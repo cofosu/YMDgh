@@ -66,6 +66,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     enable    = true
     title     = "THE CHOP BOX ROOM"
     subtitle  = "Opening the mental padlock that prevents us from engaging with our emotions"
+    primary_button = "Maintaining healthy emotional wellbeing:COVID Edition"
+    primary_button_url = "3tis3n"
 
   [params.call_to_action]
     enable              = true
