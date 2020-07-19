@@ -29,6 +29,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name    = "Get in touch"
     url     = "contact"
     weight  = 5
+  [[menu.nav]]
+    name    = "Onua 3tis3n"
+    url     = "3tis3n"
+    weight  = 6
 
 # Site Params
 [params]
