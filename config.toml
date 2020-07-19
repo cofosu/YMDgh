@@ -40,7 +40,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  formspreeFormUrl  = "https://formspree.io/FORM_ID"
+  method = "POST"
+
   
   # Navbar Action Button
   [params.navAction]
@@ -101,7 +103,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         title   = "Social Media"
         [[params.footer.social.link]]
           name = "Facebook"
-          url  = "#"
+          url  = "https://www.facebook.com/YMDgh"
         [[params.footer.social.link]]
           name = "Instagram"
           url  = "#"
